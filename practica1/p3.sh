@@ -1,0 +1,31 @@
+#!/bin/bash
+clear
+gcc arbolbin.c tiempo.c -o arbol
+./arbol 100 < numeros.txt >>salida100.txt 
+./arbol 500 < numeros.txt >>salida500.txt 
+./arbol 800 < numeros.txt >>salida800.txt 
+./arbol 1000 < numeros.txt >>salida1k.txt 
+./arbol 5000 < numeros.txt >>salida5k.txt 
+./arbol 6000 < numeros.txt >>salida6k.txt 
+./arbol 8000 < numeros.txt >>salida8k.txt 
+./arbol 10000 < numeros.txt >>salida10k.txt 
+./arbol 50000 < numeros.txt >>salida50k.txt 
+./arbol 60000 < numeros.txt >>salida60k.txt 
+./arbol 80000 < numeros.txt >>salida80k.txt 
+./arbol 100000 < numeros.txt >>salida100k.txt 
+./arbol 200000 < numeros.txt >>salida200k.txt
+./arbol 400000 < numeros.txt >>salida400k.txt
+./arbol 500000 < numeros.txt >>salida500k.txt
+./arbol 600000 < numeros.txt >>salida600k.txt
+./arbol 800000 < numeros.txt >>salida800k.txt
+./arbol 1000000 < numeros.txt >>salida1M.txt
+./arbol 1500000 < numeros.txt >>salida1M5.txt
+./arbol 2000000 < numeros.txt >>salida2M.txt
+./arbol 3000000 < numeros.txt >>salida3M.txt
+./arbol 4000000 < numeros.txt >>salida4M.txt
+./arbol 5000000 < numeros.txt >>salida5M.txt 
+./arbol 6000000 < numeros.txt >>salida6M.txt
+./arbol 7000000 < numeros.txt >>salida7M.txt
+./arbol 8000000 < numeros.txt >>salida8M.txt
+./arbol 9000000 < numeros.txt >>salida9M.txt
+./arbol 10000000 < numeros.txt >>salida10M.txt
