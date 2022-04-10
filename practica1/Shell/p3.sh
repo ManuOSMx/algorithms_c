@@ -1,0 +1,31 @@
+#!/bin/bash
+clear
+gcc shell.c tiempo.c -o she
+./she 100 < numeros.txt >>salida100.txt 
+./she 500 < numeros.txt >>salida500.txt 
+./she 800 < numeros.txt >>salida800.txt 
+./she 1000 < numeros.txt >>salida1K.txt 
+./she 5000 < numeros.txt >>salida5K.txt 
+./she 6000 < numeros.txt >>salida6K.txt 
+./she 8000 < numeros.txt >>salida8K.txt 
+./she 10000 < numeros.txt >>salida10K.txt 
+./she 50000 < numeros.txt >>salida50K.txt 
+./she 60000 < numeros.txt >>salida60K.txt 
+./she 80000 < numeros.txt >>salida80K.txt 
+./she 100000 < numeros.txt >>salida100K.txt 
+./she 200000 < numeros.txt >>salida200K.txt 
+./she 400000 < numeros.txt >>salida400K.txt 
+./she 500000 < numeros.txt >>salida500K.txt 
+./she 600000 < numeros.txt >>salida600K.txt 
+./she 800000 < numeros.txt >>salida800K.txt 
+./she 1000000 < numeros.txt >>salida1M.txt 
+./she 1500000 < numeros.txt>> salida1M5.txt
+./she 2000000 < numeros.txt >>salida2M.txt 
+./she 3000000 < numeros.txt >>salida3M.txt 
+./she 4000000 < numeros.txt >>salida4M.txt 
+./she 5000000 < numeros.txt >>salida5M.txt 
+./she 6000000 < numeros.txt >>salida6M.txt 
+./she 7000000 < numeros.txt >>salida7M.txt 
+./she 8000000 < numeros.txt >>salida8M.txt 
+./she 9000000 < numeros.txt >>salida9M.txt 
+./she 10000000 < numeros.txt >>salida10M.txt 
